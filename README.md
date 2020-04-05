@@ -2,10 +2,9 @@
 *Small server app, created for educational purposes. 
 Build with spring boot, maven, docker*
 
-
-mvn spring-boot:run    			            build and run app
-docker build -t greeting-app .  	      build image
-docker run -p 5000:5000 greeting-app 	  run image 
+> mvn spring-boot:run    			            build and run app
+> docker build -t greeting-app .  	      build image
+> docker run -p 5000:5000 greeting-app 	  run image 
 
 
 # Specification:
