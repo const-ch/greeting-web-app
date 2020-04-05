@@ -2,10 +2,12 @@
 *Small server app, created for educational purposes. 
 Build with spring boot, maven, docker*
 
-> mvn spring-boot:run    			            build and run app
-> docker build -t greeting-app .  	      build image
-> docker run -p 5000:5000 greeting-app 	  run image 
 
+```shell
+$ mvn spring-boot:run    			       
+$ docker build -t greeting-app .     
+$ docker run -p 5000:5000 greeting-app
+```
 
 # Specification:
 1. Given the following input values 
