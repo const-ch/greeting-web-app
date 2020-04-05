@@ -10,6 +10,7 @@ docker run -p 5000:5000 greeting-app 	  run image
 
 
 
+
 Specification:
 1. Given the following input values 
 account=personal and id=123 
