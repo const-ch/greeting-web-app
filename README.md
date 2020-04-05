@@ -1,8 +1,14 @@
-# greeting-web-app
-Small server app, created for educational purposes. 
-Build with spring boot, maven, docker
+## greeting-web-app
+*Small server app, created for educational purposes. 
+Build with spring boot, maven, docker*
 
-Specification:
+
+mvn spring-boot:run    			            build and run app
+docker build -t greeting-app .  	      build image
+docker run -p 5000:5000 greeting-app 	  run image 
+
+
+# Specification:
 1. Given the following input values 
 account=personal and id=123 
 
@@ -29,12 +35,4 @@ then return an error that the path is not yet implemented.
 and the allowable values for an account are personal and business
 and the allowable values for type are small and big
 
-then return "Welcome, business user!".
-
-
-
-mvn spring-boot:run    			            build and run app in maven 
-
-docker build -t greeting-app .  	      build image
-
-docker run -p 5000:5000 greeting-app 	  run image  
+then return "Welcome, business user!". 
